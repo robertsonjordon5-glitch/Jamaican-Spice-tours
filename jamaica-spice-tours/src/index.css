@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Outfit", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", Georgia, serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* Premium Vibrant Tropical Colors */
+  --color-brand-green-dark: #022c22; /* Pure deepest Forest Green background */
+  --color-brand-green-medium: #064e3b; /* Rich Emerald Jungle Green */
+  --color-brand-green-light: #10b981; /* Luminous Leaf Green */
+  --color-brand-green-pale: rgba(6, 78, 59, 0.4); /* Glassy Green tint */
+  --color-brand-gold: #facc15; /* Vibrant Sun Jamaican Gold */
+  --color-brand-gold-dark: #eab308; /* Deep Amber Gold */
+  --color-brand-charcoal: #f8fafc; /* Crisp reading typography text gray/white */
+  --color-brand-sand: #022c22; /* Vibrant Palette signature deep base layer */
+}

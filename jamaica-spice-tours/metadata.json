@@ -1,0 +1,6 @@
+{
+  "name": "Jamaican Spice Tour",
+  "description": "Premium travel experiences in Jamaica, featuring authentic culinary trails, hidden gems, and immersive cultural tours led by local expert Remone Henry Samuel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
