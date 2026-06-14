@@ -363,17 +363,27 @@ export default function BookingForm({ tours, selectedTourId, setSelectedTourId }
 
         {/* 5. PayPal Prominent CTA Anchor */}
         <div className="pt-3 space-y-4">
-          <button
-            type="button"
-            onClick={handleCheckoutSubmit}
-            className="block w-full text-center py-4.5 bg-brand-gold hover:bg-brand-gold-dark text-brand-green-dark font-black tracking-widest uppercase rounded-2xl shadow-xl transition-all duration-300 hover:scale-[1.02] border border-brand-gold text-sm group cursor-pointer"
-            id="paypal-checkout-button"
-          >
-            <span className="flex items-center justify-center gap-2">
-              Book &amp; Pay via PayPal
-              <ArrowRight className="w-4 h-4 text-brand-green-dark group-hover:translate-x-1.5 transition-transform" />
-            </span>
-          </button>
+         {/* Pathway 1: The Live PayPal Form */}
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_blank" style={{ margin: 0, width: '100%' }}>
+    <input type="hidden" name="cmd" value="_xclick" />
+    <input type="hidden" name="business" value="Remone317@yahoo.com" />
+    <input type="hidden" name="item_name" value="Doctors Cave Beach Excursion - 2 Guests" />
+    <input type="hidden" name="amount" value="40.00" />
+    <input type="hidden" name="currency_code" value="USD" />
+    
+    <button type="submit" style={{ width: '100%', backgroundColor: '#ffc439', color: '#000', padding: '16px', borderRadius: '12px', fontWeight: 900, border: 'none', cursor: 'pointer', fontSize: '1rem' }}>
+        💳 PAY $40 USD VIA PAYPAL
+    </button>
+</form>
+
+{/* Pathway 2: The WhatsApp Automation */}
+<button 
+    type="button" 
+    onClick={() => window.open('https://wa.me/18769896889?text=%E2%9C%85%20*New%20Booking%20Paid%20%26%20Confirmed!*%0A%0A%F0%9F%93%8D%20*Trail%3A*%20Doctors%20Cave%20Beach%20Excursion%0A%F0%9F%93%85%20*Date%3A*%202026-06-20%0A%F0%9F%91%A5%20*Passengers%3A*%202%20Guests%0A%F0%9F%92%B5%20*Amount%20Settled%3A*%20%2440%20USD%20(via%20PayPal)%0A%0APlease%20acknowledge%20receipt%20of%20this%20booking.', '_blank')} 
+    style={{ width: '100%', backgroundColor: '#25D366', color: '#fff', padding: '16px', borderRadius: '12px', fontWeight: 900, border: 'none', cursor: 'pointer', fontSize: '1rem', marginTop: '12px' }}
+>
+    📲 INSTANT CONFIRM ON WHATSAPP ➔
+</button>
 
           {/* Secure transaction info */}
           <div className="flex flex-col items-center justify-center gap-1 text-[10px] text-white/70 font-medium text-center">
