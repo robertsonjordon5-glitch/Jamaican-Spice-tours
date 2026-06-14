@@ -146,7 +146,7 @@ export default function BookingForm({ tours, selectedTourId, setSelectedTourId }
       <input type="hidden" name="item_name" value="Doctors Cave Beach Excursion - 2 Guests" />
       <input type="hidden" name="amount" value="40.00" />
       <input type="hidden" name="currency_code" value="USD" />
-     <button type="submit" style={{ width: '100%', backgroundColor: '#ffc439', color: '#000', padding: '16px', borderRadius: '12px', fo
+    <button type="submit" style={{ width: '100%', backgroundColor: '#ffc439', color: '#000', padding: '16px', borderRadius: '12px', fontWeight: 'bold' }}>
   💳 PAY $40 USD VIA PAYPAL
 </button>
     </form>
