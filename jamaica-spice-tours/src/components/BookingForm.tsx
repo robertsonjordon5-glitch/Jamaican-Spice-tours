@@ -146,9 +146,9 @@ export default function BookingForm({ tours, selectedTourId, setSelectedTourId }
       <input type="hidden" name="item_name" value="Doctors Cave Beach Excursion - 2 Guests" />
       <input type="hidden" name="amount" value="40.00" />
       <input type="hidden" name="currency_code" value="USD" />
-      <button type="submit" style={{ width: '100%', backgroundColor: '#ffc439', color: '#000', padding: '16px', borderRadius: '12px', fontWeight: 900, border: 'none', cursor: 'pointer', fontSize: '1rem' }}>
-        💳 PAY $40 USD VIA PAYPAL
-      </button>
+     <button type="submit" style={{ width: '100%', backgroundColor: '#ffc439', color: '#000', padding: '16px', borderRadius: '12px', fo
+  💳 PAY $40 USD VIA PAYPAL
+</button>
     </form>
 
     {/* Pathway 2: The WhatsApp Automation */}
