@@ -32,8 +32,8 @@ import tourDunnsRiver from './assets/images/tour_dunns_river_1780753608026.png';
 import tourJerkChicken from './assets/images/tour_jerk_chicken_1780753620893.png';
 import tourBlueMountains from './assets/images/tour_blue_mountains_1780753632798.png';
 import doctorsCaveBeach from './assets/images/doctors_cave_beach_1780753644755.png';
-import catamaranBoat from './assets/images/catamaran_boat_1780966656715.png';
-
+import catamaranBoat from './assets/images/dreamer_catamaran.png';
+import jetCar from './assets/images/jetcar.jpeg'; 
 // Redefine the comprehensive Tour Packages matching the user's requested price list and activities
 const TOUR_PACKAGES: Tour[] = [
   {
@@ -94,24 +94,25 @@ const TOUR_PACKAGES: Tour[] = [
     ]
   },
   {
-    id: 'jet-car-adventure',
-    title: 'Futuristic Luxury Jet Car Adventure',
-    image: image: '/jetcar.jpeg',
-    imageAlt: "High-speed water jet car",
-    tag: 'Marine Water Adrenaline',
-    duration: '45 Minutes',
-    groupType: 'Two Passengers Max',
-    price: 150,
-    rating: 5.0,
-    reviewCount: 64,
-    description: "Breeze through Montego Bay Lagoon on a custom Corvette-styled high-speed water jetcar. The ultimate marine adrenaline-rush designed for speed enthusiasts.",
-    highlights: [
-      "45 full minutes of high-velocity water racing across the open sea",
-      "Sleek custom sports car watercraft with throttle controls",
-      "Fits up to 2 passengers comfortably (driver & co-pilot)",
-      "High-grade safety lifejackets and direct professional captain briefing"
-    ]
-  },
+   {
+  id: 'jet-car-adventure',
+  title: 'Futuristic Luxury Jet Car Adventure',
+  image: jetCar,
+  imageAlt: 'High-speed water jet car',
+  tag: 'Marine Water Adrenaline',
+  duration: '45 Minutes',
+  groupType: 'Two Passengers Max',
+  price: 150,
+  rating: 5.0,
+  reviewCount: 64,
+  description: "Breeze through Montego Bay Lagoon on a custom Corvette-styled high-speed watercraft.",
+  highlights: [
+    "45 full minutes of high-velocity water racing across the open sea",
+    "Sleek custom sports car watercraft with throttle controls",
+    "Fits up to 2 passengers comfortably (driver & co-pilot)",
+    "High-grade safety lifejackets and direct professional captain briefing"
+  ]
+},
   {
     id: 'bamboo-rafting',
     title: 'Traditional River Bamboo Rafting',
