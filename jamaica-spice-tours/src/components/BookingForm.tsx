@@ -22,7 +22,14 @@ const BookingForm = () => {
       >
         INSTANT CONFIRM ON WHATSAPP →
       </button>
-
+    <a 
+  href="https://cash.app/$JSpiceTours" 
+  target="_blank" 
+  rel="noopener noreferrer" 
+  className="payment-button cash-app"
+  >
+  Pay with Cash App
+</a>
       {/* Security Assurance */}
       <div>
         <p className="text-[9px] text-white/50 leading-relaxed text-center">
