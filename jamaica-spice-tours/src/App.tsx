@@ -94,7 +94,6 @@ const TOUR_PACKAGES: Tour[] = [
     ]
   },
   {
-   {
   id: 'jet-car-adventure',
   title: 'Futuristic Luxury Jet Car Adventure',
   image: jetCar,
