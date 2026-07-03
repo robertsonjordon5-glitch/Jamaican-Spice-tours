@@ -96,7 +96,7 @@ const TOUR_PACKAGES: Tour[] = [
   {
     id: 'jet-car-adventure',
     title: 'Futuristic Luxury Jet Car Adventure',
-    image: catamaranBoat,
+    image: image: '/jetcar.jpeg',
     imageAlt: "High-speed water jet car",
     tag: 'Marine Water Adrenaline',
     duration: '45 Minutes',
